@@ -1,0 +1,169 @@
+{
+    "name": "Initial Customized Theme",
+    "textClasses": {
+        "label": {
+            "color": "#666563",
+            "fontFace": "Arial",
+            "fontSize": 9
+        },
+        "callout": {
+            "color": "#5E5C5B",
+            "fontFace": "Arial",
+            "fontSize": 30
+        },
+        "title": {
+            "color": "#B8B6B4",
+            "fontFace": "Arial",
+            "fontSize": 11
+        },
+        "header": {
+            "color": "#CAC5C1",
+            "fontFace": "'Arial Black'",
+            "fontSize": 10
+        }
+    },
+    "dataColors": [
+        "#063764",
+        "#ADB6F6",
+        "#E6364E",
+        "#7A3F00",
+        "#E044A7",
+        "#6BC24D",
+        "#B1D900",
+        "#44CCD6"
+    ],
+    "foreground": "#060606",
+    "foregroundNeutralSecondary": "#353534",
+    "backgroundLight": "#918F8D",
+    "foregroundNeutralTertiary": "#D9D6D2",
+    "backgroundNeutral": "#F8EFE7",
+    "bad": "#E4081F",
+    "neutral": "#2BD900",
+    "good": "#191CAB",
+    "minimum": "#DEFDFF",
+    "center": "#04D900",
+    "maximum": "#2C10FF",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#EBE5E5"
+                            }
+                        }
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#CEC9C9"
+                            }
+                        },
+                        "foreground": {
+                            "solid": {
+                                "color": "#F3EFEC"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#0E0E0E"
+                            }
+                        }
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#2D2C2C"
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#A29F9F"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#EE1111"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#222224"
+                            }
+                        },
+                        "titleSize": 10,
+                        "headerSize": 11,
+                        "checkboxAndApplyColor": {
+                            "solid": {
+                                "color": "#1023F2"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#F4820F"
+                            }
+                        },
+                        "textSize": 10
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#E5E3E3"
+                            }
+                        },
+                        "textSize": 10,
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FAF5F5"
+                            }
+                        },
+                        "transparency": 100
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FBF8F8"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

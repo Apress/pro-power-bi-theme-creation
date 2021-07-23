@@ -1,0 +1,32 @@
+{
+"name": "Palette Color Application",
+"dataColors": ["#171796", "#E34B20", "#F4B7A6", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+
+
+"visualStyles":
+					{"*":
+							{"*":
+									{
+									"background": 	[{
+												"show": true,
+												"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 6, "Percent": 0}}}}},
+												"transparency": 0
+												}],
+									"visualTooltip":[{
+											"titleFontColor":{"solid":{"color":"#D7CACA"}},
+											"valueFontColor":{"solid":{"color":"#FFFFFF"}},
+											"background":{"solid":{"color":"#938888"}}
+											}],
+									"title":    [{
+												"show": true,
+												"text": "Visual Title",
+												"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 6, "Percent": 0}}}}},
+												"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 5, "Percent": -0.25}}}}},
+												"alignment": "Center",
+												"fontSize": 10,
+												"fontFamily": "Arial"
+												}]
+									}
+							}
+					}
+}

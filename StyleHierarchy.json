@@ -1,0 +1,182 @@
+{
+"name": "Visual Defaults",
+"dataColors": ["#171796", "#E34B20", "#F4B7A6", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"good": "#1AAB40",
+"neutral": "#D9B300",
+"bad": "#D64554",
+"maximum": "#118DFF",
+"center": "#D9B300",
+"minimum": "#DEEFFF",
+"null": "#FF7F48",
+"background": "#FFFFFF",
+"firstLevelElements": "#949494",
+"secondLevelElements": "#949494",
+"thirdLevelElements": "#D5D5D5",
+"fourthLevelElements": "#B7B7B7",
+"secondaryBackground": "#E8E8E8",
+"tableAccent": "#118DFF",
+"textClasses": { 
+      "label": {
+           "fontSize": 9,
+           "fontFace": "Arial",
+           "color": "#949494"
+      },
+	  "callout": {
+           "fontSize": 18, 
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+      "title": {
+           "fontSize": 12,
+           "fontFace": "Arial",
+           "color": "#949494"
+      },      
+	  "header": {
+           "fontSize": 12,
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+      "largeTitle": {
+           "fontSize": 14,
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+ 
+      "largeLabel": {
+           "fontSize": 12,
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+      "smallLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#949494"
+      },
+      "semiboldLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+      "boldLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#808080"
+      },
+      "lightLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#949494"
+      },
+      "largeLightLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#949494"
+      },
+      "smallLightLabel": {
+           "fontSize": 8,
+           "fontFace": "Arial",
+           "color": "#949494"
+      }
+  },
+
+"visualStyles":
+				{"*":
+						{"*":
+							{
+							"background": 	[{
+										"color": {"solid": {"color": "#F5F4F0"}},
+										"transparency": 0
+										}],
+							"visualTooltip":[{
+									"titleFontColor":{"solid":{"color":"#D7CACA"}},
+									"valueFontColor":{"solid":{"color":"#FFFFFF"}},
+									"background":{"solid":{"color":"#938888"}}}],
+									"background":[{"color":{"solid":{"color":"#7A0A0A"}}
+									}],
+							"title":    [{
+										"show": true,
+										"text": "Visual Title",
+										"fontColor": {"solid": {"color": "#ffffff"}},
+										"background": {"solid": {"color": "#171796"}},
+										"alignment": "Center",
+										"fontSize": 16,
+										"fontFamily": "Arial"
+										}],
+							"lockAspect": [{ 
+										"show": false
+										  }],														
+							"border": 	[{
+										"show": true,
+										"color": {"solid": {"color": "#171796"}}
+										}],
+							"dropShadow": 	[{
+										"show": true,
+										"color": {"solid": {"color": "#D7CACA"}},
+										"position":"Outer",
+										"preset":"TopLeft"
+										}],
+							"visualHeader":    [{
+										"show": true,
+										"background": {"solid": {"color": "#ffffff"}},
+										"border": {"solid": {"color": "#171796"}},
+										"foreground": {"solid": {"color": "#171796"}}
+										}]
+							}
+						},
+				"card":
+						{"*" :
+							{											
+							"labels": 	[{
+										"color": {"solid": {"color": "#911B52"}},
+										"labelDisplayUnits":"0",
+										"labelPrecision": 0,
+										"fontSize": 28,
+										"fontFamily": "Arial"
+										}],
+							"categoryLabels":  [{
+										"show": false,
+										"color": {"solid": {"color": "#3d4e57"}},
+										"fontSize": 10,
+										"fontFamily": "Arial"
+										}],
+							"wordwrap": [{ 
+										"show": true 
+										}],
+							"title":    [{
+										"show": true,
+										"text": "Card Title",
+										"fontColor": {"solid": {"color": "#ffffff"}},
+										"background": {"solid": {"color": "#171796"}},
+										"alignment": "Center",
+										"fontSize": 16,
+										"fontFamily": "Arial Black"
+										}],
+							"background": 	[{
+										"show": true,
+										"color": {"solid": {"color": "#F5F4F0"}}
+										}],
+							"lockAspect": [{ 
+										"show": false
+										  }],														
+							"border": 	[{
+										"show": true,
+										"color": {"solid": {"color": "#171796"}}
+										}],
+							"dropShadow": 	[{
+										"show": false,
+										"color": {"solid": {"color": "#D7CACA"}},
+										"position":"Outer",
+										"preset":"TopLeft"
+										}],
+							"visualHeader": [{ 
+										"show": true,
+										"background": {"solid": {"color": "#ffffff"}},
+										"border": {"solid": {"color": "#3D4E57"}},
+										"foreground": {"solid": {"color": "#3D4E57"}},
+										"showVisualError": false
+										}],
+							"general":  [{"responsive": true }]
+							}
+						}
+				}
+}
