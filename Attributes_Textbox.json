@@ -1,0 +1,72 @@
+{
+"name": "Textbox  Attributes",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"textbox": 
+		{"*" :
+			{	
+			"myTextboxNotes" : "Currently you can add notes like this for visuals",
+			"title":    [{
+						"show": true,
+						"text": "Textbox Title",
+						"titleWrap": false,
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 8,
+						"fontFamily": "Arial"
+						}],
+			"background": 	[{
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 0
+						}],
+			"lockAspect": [{ 
+						"show": false
+						}],
+			"border": [{ 
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"dropShadow":   [{
+						"show": true,
+						"color": {"solid": {"color": "#E8E8E8"}},
+						"position":"Inner",
+						"preset":"Top"
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true									
+						}]
+			}
+		}
+	}
+}

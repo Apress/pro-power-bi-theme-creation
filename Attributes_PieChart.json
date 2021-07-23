@@ -1,0 +1,87 @@
+{
+"name": "Pie Chart Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"pieChart":   
+		{"*":	
+			{													
+			"general":  [{"responsive": true }],
+			"legend": [{
+						"show": true,
+						"position": "Top",
+						"showTitle": true,
+						"titleText": "Add a legend title",
+						"legendColor": {"solid": {"color": "#949494"}},
+						"fontFamily": "Arial",
+						"fontSize": 8												
+					  }],
+			"labels": [{
+						"show": true,
+						"labelStyle": "All detail labels",
+						"color": {"solid": {"color": "#000000"}},
+						"labelDisplayUnits": 1000,
+						"labelPrecision": 1,
+						"percentageLabelPrecision": 1,
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"position": "preferInside",
+						"overflow": true,
+						"background": "off"
+					  }],
+			"title":    [{
+						"show": true,
+						"text": "Pie Chart Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 10,
+						"fontFamily": "Arial"
+						}],
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}]														  					  
+			}
+		}
+	}
+}

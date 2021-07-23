@@ -1,0 +1,29 @@
+{
+"name": "Page Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"page":
+		{"*":
+			{
+			"background":   
+				[{
+				 "color": {"solid": {"color": "#F5F4F0"}},
+				 "transparency": 0
+				 }],
+			"displayArea":
+				[{
+				 "verticalAlignment": "Middle"
+				 }],
+			"outspace":
+				[{
+				 "transparency": 20,
+				 "color": {"solid": {"color": "#F5F4F0"}}
+				 }]
+			
+			}
+		}
+	}
+}

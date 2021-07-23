@@ -1,0 +1,113 @@
+{
+"name": "Table Visual Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"tableEx":
+		{"*":
+			{
+			"general":  [{"responsive": true }],															
+			"stylePreset":	[{"name": "ContrastAlternatingRows"}],
+			"grid":    [{
+						"gridVertical": false,
+						"gridVerticalColor": {"solid": {"color": "#F5F4F0"}},
+						"gridVerticalWeight": 1,
+						"gridHorizontal": false,
+						"gridHorizontalColor": {"solid": {"color": "#F5F4F0"}},
+						"gridHorizontalWeight": 1,
+						"rowPadding": 1,
+						"outlineColor": {"solid": {"color": "#ffffff"}},
+						"outlineWeight": 1,
+						"textSize": 10,
+						"imageHeight": 60
+						}],
+			"columnHeaders": [{
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"backColor": {"solid": {"color": "#118Dff"}},
+						"outline": "TopBottom",
+						"autoSizeColumnWidth": true,
+						"fontFamily": "Arial Black",
+						"fontSize": 12,
+						"alignment": "Left",
+						"wordWrap": true
+					  }],					  
+			"values": [{
+						"fontColorPrimary": {"solid": {"color": "#949494"}},
+						"backColorPrimary": {"solid": {"color": "#E8E8E8"}},
+						"fontColorSecondary": {"solid": {"color": "#808080"}},
+						"backColorSecondary": {"solid": {"color": "#D5D5D5"}},
+						"outline": "Frame",
+						"urlIcon": true,
+						"wordWrap": true,
+						"fontFamily": "Arial",
+						"fontSize": 8
+					  }],
+			"total":    [{
+						"totals": true,
+						"label": "TOTAL",
+						"fontColor": {"solid": {"color": "#000000"}},
+						"backColor": {"solid": {"color": "#118DFF"}},
+						"outline": "Frame",
+						"fontFamily": "Arial",
+						"fontSize": 10
+					  }],
+			"title":    [{
+						"show": false,
+						"text": "Table Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#87ddff"}},
+						"alignment": "Center"
+						}],
+			"background": 	[{
+						"show": false,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": false,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"dropShadow": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#E8E8E8"}},
+						"position":"Outer",
+						"preset":"TopLeft"
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}]
+			}
+		}
+	}
+}
