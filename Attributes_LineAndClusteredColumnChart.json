@@ -1,0 +1,162 @@
+{
+"name": "Line and Stacked Column Chart Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"lineClusteredColumnComboChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],
+			"legend": [{
+						"show": true,
+						"position": "Top",
+						"showTitle": true,
+						"titleText": "Add a legend title",
+						"legendColor": {"solid": {"color": "#949494"}},
+						"fontFamily": "Arial",
+						"fontSize": 8,
+						"legendMarkerRendering":"markerOnly"												
+					  }],
+			"categoryAxis": [{
+						"show": true,
+						"color": {"solid": {"color": "#949494"}},
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"preferredCategoryWidth": 20,
+						"maxMarginFactor": 25,
+						"innerPadding": 15,
+						"concatenateLabels": true,
+						"showAxisTitle": true,
+						"axisStyle": "showTitleOnly",
+						"titleColor": {"solid": {"color": "#949494"}},
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial"
+					  }],
+			"valueAxis": [{
+						"show": true,
+						"position": "Left",
+						"start": null,
+						"end": null,
+						"labelColor": {"solid": {"color": "#949494"}},
+						"fontSize": 8,
+						"fontFamily": "Arial",
+						"labelPrecision": 0,
+						"labelDisplayUnits": 0,
+						"showAxisTitle": true,
+						"axisStyle": "ShowTitleOnly",
+						"color": {"solid": {"color": "#949494"}},
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial",
+						"gridLineShow": false,
+						"gridLineColor":  {"solid": {"color": "#949494"}},
+						"gridLineThickness": 1,
+						"gridlineStyle": "Solid",
+						"secShow": true,
+						"alignZeros": true,
+						"secPosition": "Right",
+						"secStart": null,
+						"secEnd": null,
+						"secAxisScale": "Linear",
+						"secLabelColor": {"solid": {"color": "#949494"}},
+						"secFontSize": 8,
+						"secFontFamily": "Arial",
+						"secLabelDisplayUnits": 0,
+						"secLabelPrecision": 0,
+						"secShowAxisTitle": true,
+						"secTitleText": "Add an Axis Title",
+						"secAxisStyle": "ShowTitleOnly",
+						"secTitleColor": {"solid": {"color": "#949494"}},
+						"secTitleText": "Add an Axis Title",
+						"secTitleFontSize": 8,
+						"secTitleFontFamily": "Arial"							
+					}],
+			"zoom":[{
+						"show":true,
+						"showLabels":true,
+						"showTooltip":true
+						}],
+			"labels": [{
+						"show": true,
+						"color": {"solid": {"color": "#ffffff"}},
+						"labelDisplayUnits": 1,
+						"labelPrecision": 2,
+						"labelOrientation": 1,
+						"labelPosition": "InsideEnd",
+						"labelOverflow": true,
+						"labelOrientation": "Vertical",
+						"fontFamily": "Arial",
+						"fontSize": 7,
+						"enableBackground": false,
+						"backgroundColor": {"solid": {"color": "#949494"}},
+						"backgroundTransparency": 0
+					  }],
+			"lineStyles": [{
+						"shadeArea": true,
+						"strokeWidth": 1,
+						"strokeLineJoin": "Bevel",
+						"lineStyle": "Solid",
+						"showMarker": true,
+						"stepped": true
+					}],
+			"plotArea": [{
+						"transparency": 0,
+						"scaling": "Fill"
+					  }],
+			"title":    [{
+						"show": true,
+						"text": "Line and Clustered Column Chart Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 10,
+						"fontFamily": "Arial"
+						}],														
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}]
+			}
+		}
+	}
+}

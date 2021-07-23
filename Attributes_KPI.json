@@ -1,0 +1,102 @@
+{
+"name": "Gauge Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"kpi":
+		{"*" :
+			{											
+			"general":  [{"responsive": true }],
+			"indicator":    [{
+						"indicatorDisplayUnits": 0,
+						"indicatorPrecision": 2,
+						"fontSize": 9,
+						"fontColor": {"solid": {"color": "#F5F4F0"}},
+						"fontFamily": "Arial",
+						"horizontalAlignment": "left",
+						"verticalAlignment": "top",
+						"showIcon": true,
+						"iconSize": 15
+						}],
+
+			"trendline": 	[{
+						"show": true,
+						"transparency": 30
+						}],
+			"goals": [{
+						"showGoal": true,
+						"goalText": "Target",
+						"showDistance": true,
+						"goalFontColor": {"solid": {"color": "#000000"}},
+						"goalFontFamily": "Arial",
+						"fontSize": 9,
+						"showDistance": true,
+						"distanceLabel": "Value",
+						"labelPrecision": 2,
+						"distanceFontFamily": "Arial",
+						"distanceFontColor": {"solid": {"color": "#FFFFFF"}},
+						"titleFontSize": 13,
+						"direction": "Low is good"
+						}],
+			"status": [{
+						"direction": "Positive",
+						"goodColor": {"solid": {"color": "#F5F4F0"}},
+						"neutralColor": {"solid": {"color": "#949494"}},
+						"badColor": {"solid": {"color": "#FF001E"}}
+						}],
+			"title":    [{
+						"show": true,
+						"text": "KPI Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 10,
+						"fontFamily": "Arial"
+						}],
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader": [{ 
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}]
+			}
+		}
+	}
+}

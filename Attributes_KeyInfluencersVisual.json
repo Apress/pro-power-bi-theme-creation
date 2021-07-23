@@ -1,0 +1,84 @@
+{
+"name": "Key influencers visual Attributes. Taken from Power BI Themes - The Complete Reference (Apress 2021)",
+"dataColors": ["#171796", "#E34B20", "#D1CAB8", "#465437", "#E2EB00", "#615E55", "#00AC98", "#73268c"],
+"background": "#FFFFFF",
+"foreground": "#949494",
+"visualStyles":
+	{
+	"keyDriversVisual":
+		{"*":
+			{
+			"general":  [{"responsive": true }],
+			"keyDrivers": [{
+						"allowKeyDrivers": true,
+						"allowProfiles": true,
+						"allowKeyDriversCounting": true,
+						"countType": "relative"
+			
+						}],						
+			"keyInfluencersVisual": [{
+						"primaryColor": {"solid": {"color": "#615E55"}},
+						"primaryFontColor": {"solid": {"color": "#00AC98"}},
+						"secondaryColor": {"solid": {"color": "#73268c"}},
+						"secondaryFontColor": {"solid": {"color": "#465437"}},
+						"canvasColor": {"solid": {"color": "#465437"}},
+						"fontColor": {"solid": {"color": "#FFFFFF"}}
+						}],							
+			"keyDriversDrillVisual": [{
+						"defaultColor": {"solid": {"color": "#465437"}},
+						"referenceLineColor": {"solid": {"color": "#00AC98"}}
+						}],		
+			"title":    [{
+						"show": true,
+						"text": "Key Influencers Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 10,
+						"fontFamily": "Arial"
+						}],														
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}},
+						"radius": 5
+						}],
+			"visualHeaderTooltip":[{
+						"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+						"text": "Add a tooltip text",
+						"fontSize": 11,
+						"fontFamily": "Arial Black",
+						"background":{"solid":{"color":"#FFFFFF"}},
+						"transparency": 30
+					}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#F5F4F0"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}]
+			}
+		}
+	}
+}

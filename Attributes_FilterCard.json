@@ -1,0 +1,46 @@
+{
+"name": "Filter Pane Attributes",
+	"visualStyles": 
+		{"*":
+			{"*":
+				{						
+		"outspacePane": [{
+							   "backgroundColor": {"solid": {"color": "#999999"}},
+							   "transparency": 30,
+							   "foregroundColor": {"solid": {"color": "#374649"}},
+							   "titleSize": 18,
+							   "headerSize": 12,
+							   "fontFamily": "Arial",
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "width": 190,
+							   "checkboxAndApplyColor": {"solid": {"color": "#374649"}},
+							   "searchTextSize": 11,
+							   "inputBoxColor": {"solid": {"color": "#ffffff"}}
+							   }],
+			"filterCard": [{
+							   "$id": "Applied",
+							   "backgroundColor": {"solid": {"color": "#171796"}},
+							   "transparency": 0,
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "foregroundColor": {"solid": {"color": "#ffffff"}},
+							   "textSize": 10,
+							   "fontFamily": "Arial",
+							   "inputBoxColor": {"solid": {"color": "#C8C8C8"}}
+							   },
+							   {
+							   "$id": "Available",
+							   "backgroundColor": {"solid": {"color": "#171796"}},
+							   "transparency": 40,
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "foregroundColor": {"solid": {"color": "#ffffff"}},
+							   "textSize": 9,
+							   "fontFamily": "Arial",
+							   "inputBoxColor": {"solid": {"color": "#777777"}}
+							   }]
+			}
+		}
+	}
+}
