@@ -1,0 +1,199 @@
+{
+"name": "Action Button Attributes",
+"visualStyles":
+	{
+	"actionButton":
+		{"*":
+			{
+					"text": [{
+								"show": true}
+								,
+								{
+								"$id": "default",
+								"text": "Button Text",
+								"fontColor": {"solid": {"color": "#808080"}},
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"fontSize": 10,
+								"fontFamily": "Arial"
+								}
+								,
+								{
+								"$id": "hover",
+								"text": "Hover button Text",
+								"fontColor": {"solid": {"color": "#808080"}},
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"fontSize": 10,
+								"fontFamily": "Arial"
+								}
+								,
+								{
+								"$id": "selected",
+								"text": "Press button Text",
+								"fontColor": {"solid": {"color": "#808080"}},
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"fontSize": 10,
+								"fontFamily": "Arial"
+								}
+								,
+								{
+								"$id": "disabled",
+								"text": "Disabled button Text",
+								"fontColor": {"solid": {"color": "#808080"}},
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"fontSize": 10,
+								"fontFamily": "Arial"								
+								}],
+					"icon": [{
+								"show": true
+								},
+								{
+								"$id": "default",
+								"shapeType": "help",
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"lineTransparency": 10,
+								"lineWeight": 2
+								},
+								{
+								"$id": "hover",
+								"shapeType": "help",
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"lineTransparency": 10,
+								"lineWeight": 2
+								},								{
+								"$id": "selected",
+								"shapeType": "help",
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"lineTransparency": 10,
+								"lineWeight": 2
+								},								
+								{
+								"$id": "disabled",
+								"shapeType": "help",
+								"padding": 3,
+								"verticalAlignment": "middle",
+								"horizontalAlignment": "center",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"lineTransparency": 10,
+								"lineWeight": 2
+								}],									
+					"outline": [{
+								"show": true
+								},
+								{
+								"$id": "default",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"transparency": 10,
+								"weight": 2,
+								"roundEdge": 3
+								},
+								{
+								"$id": "hover",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"transparency": 5,
+								"weight": 2,
+								"roundEdge": 3
+								},								{
+								"$id": "selected",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"transparency": 15,
+								"weight": 2,
+								"roundEdge": 3
+								},								{
+								"$id": "disabled",
+								"lineColor": {"solid": {"color": "#F5F4F0"}},
+								"transparency": 20,
+								"weight": 2,
+								"roundEdge": 3								
+								}],
+					"fill":
+							   [{
+								"show":true
+								},
+								{
+								"$id": "default",
+								"transparency": 0,
+								"fillColor": {"solid":{"color":"#949494"}}
+								},
+								{
+								"$id": "hover",
+								"transparency": 0,
+								"fillColor": {"solid":{"color":"#949494"}}
+								},			                                                                                                {
+								"$id": "selected",
+								"transparency": 0,
+								"fillColor": {"solid":{"color":"#111111"}}
+								},			                                                                                                {
+								"$id": "disabled",
+								"transparency": 0,
+								"fillColor": {"solid":{"color":"#111111"}}
+								}],
+					"title":    [{
+								"show": false,
+								"text": "Button Title",
+								"fontColor": {"solid": {"color": "#ffffff"}},
+								"background": {"solid": {"color": "#12239E"}},
+								"alignment": "Center",
+								"fontFamily": "Arial"
+								}],
+					"background": 	[{
+								"show": true,
+								"color": {"solid": {"color": "#F5F4F0"}}
+								}],
+					"lockAspect": [{ 
+								"show": false
+								  }],														
+					"border": 	[{
+								"show": false,
+								"color": {"solid": {"color": "#F5F4F0"}},
+								"radius": 5
+								}],
+					"visualHeaderTooltip":[{
+								"titleFontColor":{"solid":{"color":"#E8E8E8"}},
+								"text": "Add a tooltip text",
+								"fontSize": 11,
+								"fontFamily": "Arial Black",
+								"background":{"solid":{"color":"#FFFFFF"}},
+								"transparency": 30
+							}],
+					"visualHeader":    [{
+								"show": true,
+								"background": {"solid": {"color": "#ffffff"}},
+								"border": {"solid": {"color": "#F5F4F0"}},
+								"transparency": 10,
+								"foreground": {"solid": {"color": "#F5F4F0"}},
+								"showVisualInformationButton": false,
+								"showVisualWarningButton": false,
+								"showVisualErrorButton": false,
+								"showDrillRoleSelector": true,
+								"showDrillToggleButton": false,
+								"showDrillUpButton": false,
+								"showDrillDownLevelButton": false,
+								"showDrillDownExpandButton": false,
+								"showPinButton": false,
+								"showFocusModeButton": false,
+								"showFilterRestatementButton": false,
+								"showSeeDataLayoutToggleButton": false,
+								"showOptionsMenu": false,
+								"showTooltipButton": true
+								}]
+			}
+		}
+	}
+}

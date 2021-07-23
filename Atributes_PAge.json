@@ -1,0 +1,28 @@
+{
+"name": "Page Defaults",
+
+"visualStyles":
+	{"*":
+		{
+		"page":
+			{"*":
+				{
+				"background":   
+					[{
+					 "color": {"solid": {"color": "#F5F4F0"}},
+					 "transparency": 0
+					 }],
+				"displayArea":
+					[{
+					 "verticalAlignment": "Middle"
+					 }],
+				"outspace":
+					[{
+					 "transparency": 20,
+					 "color": {"solid": {"color": "#F5F4F0"}}
+					 }]		
+				}
+			}
+		}
+	}
+}
