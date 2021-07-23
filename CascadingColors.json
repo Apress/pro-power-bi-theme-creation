@@ -1,0 +1,34 @@
+{
+"name": "Cascading Colors - taken from Pro Power BI Themes by Adam Aspin - Apress 2021",
+"dataColors": ["#12239E", "#118DFF", "#00FF29", "#6B007B", "#FFB000", "#F5F4F0", "#FFFF00", "#FF001E"],
+"visualStyles":
+	{"*":
+		{"*":
+			{
+			"total":    
+				[{
+				"totals": true,
+				"label": "TOTAL",
+				"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 9, "Percent": -0.5}}}}},
+				"fontFamily": "Arial",
+				"fontSize": 10
+				}]
+			}
+		},
+	"tableEx":
+		{"*":
+			{
+			"total":    
+				[{
+				"totals": true,
+				"label": "TOTAL",
+				"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 8, "Percent": 0.6}}}}},
+				"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 9, "Percent": 0.35}}}}},
+				"outline": "Frame",
+				"fontFamily": "Arial",
+				"fontSize": 12
+				}]				
+			}
+		}		
+	}
+}

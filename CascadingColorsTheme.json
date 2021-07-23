@@ -1,0 +1,1122 @@
+{
+"name": "Cascading color Power BI Theme - taken from Pro Power BI Themes by Adam Aspin - Apress 20211",
+"dataColors": ["#1E0CDB", "#A1343C", "#6B2328", "#15880F", "#FFFF00", "#180CBC", "#f4ac0a", "#BC0D2A"],
+"visualStyles":
+	{
+	"Notes_001" : "Standard template theme using cascading colours from the colour palette",
+	
+	"*":
+		{"*":
+			{
+		"page":
+			{"*":
+				{
+				"background":   
+					[{
+					 "color": {"solid": {"color": "#FFFFFF"}},
+					 "transparency": 0
+					 }],
+				"displayArea":
+					[{
+					 "verticalAlignment": "Middle"
+					 }],
+				"outspace":
+					[{
+					 "transparency": 20,
+					 "color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}}
+					 }]		
+				}
+			},
+		"outspacePane": [{
+							   "backgroundColor": {"solid": {"color": "#999999"}},
+							   "transparency": 30,
+							   "foregroundColor": {"solid": {"color": "#374649"}},
+							   "titleSize": 18,
+							   "headerSize": 12,
+							   "fontFamily": "Arial",
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "width": 190,
+							   "checkboxAndApplyColor": {"solid": {"color": "#374649"}},
+							   "searchTextSize": 11,
+							   "inputBoxColor": {"solid": {"color": "#ffffff"}}
+							   }],
+			"filterCard": [{
+							   "$id": "Applied",
+							   "backgroundColor": {"solid": {"color": "#171796"}},
+							   "transparency": 0,
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "foregroundColor": {"solid": {"color": "#ffffff"}},
+							   "textSize": 10,
+							   "fontFamily": "Arial",
+							   "inputBoxColor": {"solid": {"color": "#909090"}}
+							   },
+							   {
+							   "$id": "Available",
+							   "backgroundColor": {"solid": {"color": "#171796"}},
+							   "transparency": 40,
+							   "border": true,
+							   "borderColor": {"solid": {"color": "#909090"}},
+							   "foregroundColor": {"solid": {"color": "#ffffff"}},
+							   "textSize": 9,
+							   "fontFamily": "Arial",
+							   "inputBoxColor": {"solid": {"color": "#ffffff"}}
+							   }],
+			"background": 	[{
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"transparency": 0
+						}],
+			"visualTooltip":[{
+					"titleFontColor":{"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": -0.6}}}}},
+					"valueFontColor":{"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.1}}}}},
+					"background":{"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0.1}}}}},
+					"fontFamily": "Arial Light"
+					}],
+			"title":    [{
+						"show": false
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": false
+						}],
+			"dropShadow": 	[{
+						"show": false
+						}],
+			"visualHeader":    [{
+						"show": true,
+						"background": {"solid": {"color": "#ffffff"}},
+						"border": {"solid": {"color": "#F5F4F0"}},
+						"transparency": 10,
+						"foreground": {"solid": {"color": "#000000"}},
+						"showVisualInformationButton": false,
+						"showVisualWarningButton": false,
+						"showVisualErrorButton": false,
+						"showDrillRoleSelector": true,
+						"showDrillToggleButton": false,
+						"showDrillUpButton": false,
+						"showDrillDownLevelButton": false,
+						"showDrillDownExpandButton": false,
+						"showPinButton": false,
+						"showFocusModeButton": false,
+						"showFilterRestatementButton": false,
+						"showSeeDataLayoutToggleButton": false,
+						"showOptionsMenu": false,
+						"showTooltipButton": true
+						}],
+			"categoryAxis": [{
+						"show": true,
+						"axisScale": "Linear", 
+						"position": "left",
+						"labelColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 8,
+						"showAxisTitle": true,
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial",
+						"titleColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"gridLineShow": true,
+						"gridLineColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridLineThickness": 1,
+						"gridlineStyle": "Solid"
+					  }],
+			"valueAxis": [{
+						"show": true,
+						"position": "left",
+						"axisScale": "Linear",
+						"labelColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 8,
+						"showAxisTitle": true,
+						"titleText": "Add an Axis Title",
+						"titleFontSize": 8,
+						"titleFontFamily": "Arial",
+						"titleColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"gridLineShow": true,
+						"gridLineColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridLineThickness": 1,
+						"gridlineStyle": "Solid",
+						"axisStyle": "ShowTitleOnly"
+					}],
+			"labels": [{
+						"show": true,
+						"labelPosition": "InsideEnd",
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 7,
+						"enableBackground": false,
+						"backgroundColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backgroundTransparency": 0
+					  }],
+			"plotArea": [{
+						"transparency": 0												
+					  }],
+			"legend": [{
+						"show": true,
+						"position": "Bottom",
+						"showTitle": true,
+						"titleText": "Add a legend title",
+						"legendColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 40}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 8												
+					  }]		
+			}
+		},
+	"textbox": 
+		{"*" :
+			{	
+			"myTextboxNotes" : "Currently you can add notes like this for visuals",
+			"background": 	[{
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"transparency": 0
+						}],
+			"lockAspect": [{ 
+						"show": false
+						}],
+			"border": [{ 
+						"show": true,
+						"color": {"solid": {"color": "#F5F4F0"}}
+						}],
+			"dropShadow":   [{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"position":"Inner",
+						"preset":"Top"
+						}]
+			}
+		},
+	"image": 
+		{"*":
+			{
+			"imageScaling": [{"imageScalingType": "Fit"}],
+			"title":    [{
+						"show": false,
+						"wordwrap": [{"show": true}],
+						"text": "Image Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"alignment": "Center",
+						"fontSize": 8,
+						"fontFamily": "Arial"
+						}],
+			"background": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"transparency": 0
+						}],
+			"lockAspect": [{"show": false}],														
+			"border": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"radius": 5
+						}],
+			"dropShadow": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"position":"Outer",
+						"preset":"Custom",
+						"shadowSpread": 15,
+						"shadowBlur": 20,
+						"angle": 50,
+						"shadowDistance": 15,
+						"transparency": 80
+						}]
+			}														
+		},
+	"basicShape": 
+		{"*" :
+			{											
+			"line": 	[{
+						"lineColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"transparency": 0,
+						"weight": 1,
+						"roundedge": 0
+						}],														
+			"fill": 	[{
+						"show": false,
+						"fillColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"transparency": 0
+						}],
+			"rotation":    [{
+						"angle": 0													
+						}],
+			"title":    [{
+						"show": false,
+						"wordwrap": [{"show": true}],
+						"text": "Shape Title",
+						"fontColor": {"solid": {"color": "#ffffff"}},
+						"background": {"solid": {"color": "#12239E"}},
+						"alignment": "Center",
+						"fontSize": 8,
+						"fontFamily": "Arial"
+						}],
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"transparency": 0
+						}],
+			"lockAspect": [{"show": false}],														
+			"border": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.5}}}}},
+						"radius": 5
+						}]
+			}
+		},
+	"slicer":
+		{"*":
+			{
+			"general":  [{
+						"outlineColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},			
+						"outlineWeight": 1,
+						"orientation": "Horizontal",
+						"responsive": false															
+						}],
+			"selection": [{
+						"show": true,
+						"singleSelect": true,
+						"strictSingleSelect": false,
+						"selectAllCheckboxEnabled": false
+						}],
+			"header":   [{
+						"show": false,
+						"text": "Slicer Text",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 4}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"outline": "None",
+						"textSize": 9,
+						"fontFamily": "Arial"
+						}],
+			"numericInputStyle":[{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"backgroundColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"fontSize": 9,
+						"fontFamily": "Arial"
+						}],
+			"slider": 	[{ 
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}}
+						}],
+			"date":[{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.8}}}}},
+						"fontFamily": "Arial",
+						"textSize": 8
+						}],
+			"items":    [{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"backgroundColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"outline": "None",
+						"textSize": 8,
+						"fontFamily": "Arial"
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Slicer Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"alignment": "Center",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],														
+			"background": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0.8}}}}}
+						}],
+			"lockAspect": [{ 
+						"show": false
+						  }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"visualHeader":    [{
+						"show": false
+						}]
+			}
+		},						
+	"tableEx":
+		{"*":
+			{
+			"general":  [{"responsive": true }],															
+			"stylePreset":	[{"name": "ContrastAlternatingRows"}],
+			"grid":    [{
+						"gridVertical": false,
+						"gridVerticalColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridVerticalWeight": 1,
+						"gridHorizontal": false,
+						"gridHorizontalColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridHorizontalWeight": 1,
+						"rowPadding": 1,
+						"outlineColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"outlineWeight": 1,
+						"textSize": 10,
+						"imageHeight": 60
+						}],
+			"columnHeaders": [{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"outline": "TopBottom",
+						"autoSizeColumnWidth": true,
+						"fontFamily": "Arial",
+						"fontSize": 10,
+						"alignment": "Center",
+						"wordWrap": true
+					  }],					  
+			"values": [{
+						"fontColorPrimary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"backColorPrimary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.8}}}}},
+						"fontColorSecondary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"backColorSecondary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"outline": "Frame",
+						"urlIcon": true,
+						"wordWrap": true,
+						"fontFamily": "Arial",
+						"fontSize": 8
+					  }],
+			"total":    [{
+						"totals": true,
+						"label": "TOTAL",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.4}}}}},
+						"outline": "Frame",
+						"fontFamily": "Arial",
+						"fontSize": 9
+					  }],														
+			"border": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}}
+						}]
+			}
+		},
+	"pivotTable":
+		{"*" :
+			{
+			"general":  [{"responsive": true }],															
+			"stylePreset":	[{"name": "ContrastAlternatingRows"}],
+			"grid":    [{
+						"gridVertical": false,
+						"gridVerticalColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridVerticalWeight": 1,
+						"gridHorizontal": false,
+						"gridHorizontalColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"gridHorizontalWeight": 1,
+						"rowPadding": 1,
+						"outlineColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"outlineWeight": 1,
+						"textSize": 10,
+						"imageHeight": 60
+						}],
+			"columnHeaders": [{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"outline": "TopBottom",
+						"autoSizeColumnWidth": true,
+						"fontFamily": "Arial",
+						"fontSize": 10,
+						"alignment": "Center",
+						"wordWrap": true
+					  }],					  
+			"values": [{
+						"fontColorPrimary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"backColorPrimary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.8}}}}},
+						"fontColorSecondary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"backColorSecondary": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"outline": "Frame",
+						"urlIcon": true,
+						"wordWrap": true,
+						"fontFamily": "Arial",
+						"fontSize": 8
+					  }],
+			"total":    [{
+						"totals": true,
+						"label": "TOTAL",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.4}}}}},
+						"outline": "Frame",
+						"fontFamily": "Arial",
+						"fontSize": 9
+					  }],														
+			"border": 	[{
+						"show": false,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}}
+						}],
+			"rowHeaders": [{
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.4}}}}},
+						"outline": "TopBottom",
+						"stepped": true,
+						"steppedLayoutIndentation": 14,
+						"urlIcon": true,
+						"wordWrap": true,
+						"fontFamily": "Arial",
+						"fontSize": 8,
+						"titleAlignment": "Center",
+						"showExpandCollapseButtons": true,
+						"expandCollapseButtonsColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"expandCollapseButtonsSize": 12
+					  }],
+			"subTotals": [{
+						"rowSubTotals": true,
+						"rowSubtotalsLabel": "Total",
+						"columnSubTotals": true,
+						"columnSubtotalsLabel": "Total",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0.1}}}}},
+						"backColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.4}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 9,
+						"applyToHeaders": false,
+						"rowSubTotalPosition": "Bottom",
+						"perRowLevel": false,
+						"perColumnLevel": false
+					  }]
+			}
+		},
+	 "barChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],							
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "columnChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "clusteredBarChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],							
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "clusteredColumnChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "hundredPercentStackedBarChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],							
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "hundredPercentStackedColumnChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}]
+			}
+		},
+	 "lineChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 1,
+						"strokeLineJoin": "Bevel",
+						"lineStyle": "lineOnly",
+						"showMarker": true,
+						"markerShape": "circle",
+						"markerSize": 2,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "areaChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 1,
+						"strokeLineJoin": "None",
+						"lineStyle": "lineOnly",
+						"showMarker": true,
+						"markerShape": "circle",
+						"markerSize": 1,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "stackedAreaChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 1,
+						"strokeLineJoin": "None",
+						"lineStyle": "lineOnly",
+						"showMarker": true,
+						"markerShape": "circle",
+						"markerSize": 1,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "lineStackedColumnComboChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],
+			"valueAxis": [{
+						"secShow": true,
+						"alignZeros": true,
+						"secPosition": "Right",
+						"secStart": null,
+						"secEnd": null,
+						"secAxisScale": "Linear",
+						"secLabelColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"secFontSize": 8,
+						"secFontFamily": "Arial",
+						"secLabelDisplayUnits": 0,
+						"secLabelPrecision": 0,
+						"secShowAxisTitle": true,
+						"secTitleText": "Add a Secondary Axis Title",
+						"secAxisStyle": "ShowTitleOnly",
+						"secTitleColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"secTitleFontSize": 8,
+						"secTitleFontFamily": "Arial"							
+					}],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 1,
+						"strokeLineJoin": "Bevel",
+						"lineStyle": "lineOnly",
+						"showMarker": true,
+						"markerShape": "circle",
+						"markerSize": 2,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "lineClusteredColumnComboChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],
+			"valueAxis": [{
+						"secShow": true,
+						"alignZeros": true,
+						"secPosition": "Right",
+						"secStart": null,
+						"secEnd": null,
+						"secAxisScale": "Linear",
+						"secLabelColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"secFontSize": 8,
+						"secFontFamily": "Arial",
+						"secLabelDisplayUnits": 0,
+						"secLabelPrecision": 0,
+						"secShowAxisTitle": true,
+						"secTitleText": "Add a Secondary Axis Title",
+						"secAxisStyle": "ShowTitleOnly",
+						"secTitleColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.4}}}}},
+						"secTitleFontSize": 8,
+						"secTitleFontFamily": "Arial"							
+					}],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 1,
+						"strokeLineJoin": "Bevel",
+						"lineStyle": "lineOnly",
+						"showMarker": true,
+						"markerShape": "circle",
+						"markerSize": 2,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "ribbonChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"lineStyles": [{
+						"strokeWidth": 0,
+						"strokeLineJoin": "None",
+						"lineStyle": "lineOnly",
+						"showMarker": false,
+						"markerShape": "circle",
+						"markerSize": 1,
+						"markerColor":  {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"stepped": false,
+						"showSeries": true
+					}],
+			"labels": [{
+						"show": false
+					  }],
+			"ribbonChart": [{ 
+						"seriesGapRatio": 0,
+						"colorBands": true,
+						"bandsTransparency": 80,
+						"showBorder": false
+						  }]
+			}
+		},
+	 "waterfallChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"sentimentColors": [{
+						"increaseFill": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"decreaseFill": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": -0.6}}}}},
+						"totalFill": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}}
+			}]
+			}
+		},
+	 "funnelChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"percentBarLabel": [{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"fontFamily": "Arial",
+						"fontSize": 14
+					  }]
+			}
+		},
+	 "scatterChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "pieChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "donutChart":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "treemao":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"alignment": "Left",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"labels": [{
+						"show": false
+					  }]
+			}
+		},
+	 "card":
+		{"*":
+			{
+			"general":  [{"responsive": true }],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}],
+			"title":    [{
+						"show": true,
+						"text": "Please Add a Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"alignment": "Center",
+						"fontSize": 11,
+						"fontFamily": "Arial"
+						}],
+			"labels": 	[{
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"labelDisplayUnits": 1000,
+						"labelPrecision": 2,
+						"fontSize": 16,
+						"fontFamily": "Arial",
+						"preserveWhitespace": false
+						}],
+			"categoryLabels":  [{
+						"show": false
+						}]
+			}
+		},
+	 "decompositionTreeVisual":
+		{"*":
+			{
+			"analysis": [{
+						"aiEnabled": true,
+						"aiMode": "relative"
+			}],
+			"tree": [{
+						"density": "sparse",
+						"accentColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"connectorDefaultColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"connectorType": "round",
+						"defaultClickAction": "toggle",
+						"responsiveLayout": true,
+						"barsPerLevel": 10
+			}],
+			"dataBars": [{
+						"positiveBarColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"negativeBarColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"dataBarBackgroundColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"dataBarWidthPercent": 100,
+						"dataBarScalingType": "topNode",
+						"axisStart": null,
+						"axisEnd": null
+			}],
+			"categoryLabels": [{
+						"categoryLabelFontFamily": "Arial",
+						"categoryLabelFontSize": 12,
+						"categoryLabelFontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}}
+			}],
+			"dataLabels": [{
+						"dataLabelFontFamily": "Arial",
+						"dataLabelFontSize": 10,
+						"dataLabelFontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"dataLabelDisplayUnits": 1000,
+						"dataLabelPrecision": 1
+			}],
+			"levelHeader": [{
+						"levelHeaderBackgroundColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"levelTitleFontFamily": "Arial",
+						"levelTitleFontSize": 14,
+						"levelTitleFontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"showSubtitles": false,
+						"levelSubtitleFontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"levelSubtitleFontFamily": "Arial",
+						"levelSubtitleFontSize": 9
+			}],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}}
+						}]
+			}
+		},
+	"gauge":
+		{"*":
+			{
+			"general":  [{"responsive": true }],
+			"dataPoint":  [{
+						"fill": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0}}}}},
+						"target": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}}
+					  }],
+			"labels": [{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"labelDisplayUnits": 0,
+						"labelPrecision": 0,
+						"fontSize": 8,
+						"fontFamily": "Arial"
+					  }],
+			"target": [{
+						"show": true,
+						"color": {"solid": {"color": "#E34B20"}},
+						"labelDisplayUnits": 0,
+						"labelPrecision": 0,
+						"fontFamily": "Arial",
+						"fontSize": 8
+					  }],
+			"calloutValue": [{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 1, "Percent": 0.6}}}}},
+						"labelDisplayUnits": 0,
+						"labelPrecision": 0
+					  }],
+			"title":    [{
+						"show": true,
+						"text": "Gauge Title",
+						"fontColor": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 0, "Percent": 0}}}}},
+						"background": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.2}}}}},
+						"alignment": "Center",
+						"fontSize": 10,
+						"fontFamily": "Arial"
+						}],														
+			"border": 	[{
+						"show": true,
+						"color": {"solid": {"color": {"expr":{"ThemeDataColor":{"ColorId": 2, "Percent": 0.6}}}}},
+						"radius": 6
+						}]
+			}
+		}
+
+		
+	}
+}

@@ -1,0 +1,89 @@
+{
+    "name": "Colors and Text Classes",
+    "dataColors": [
+        "#171796",
+        "#E34B20",
+        "#F4B7A6",
+        "#465437",
+        "#E2EB00",
+        "#615E55",
+        "#00AC98",
+        "#73268c"
+    ],
+    "background": "#FFFFFF",
+    "good": "#1AAB40",
+    "neutral": "#D9B300",
+    "bad": "#D64554",
+    "maximum": "#118DFF",
+    "center": "#D9B300",
+    "minimum": "#DEEFFF",
+    "null": "#FF7F48",
+    "firstLevelElements": "#949494",
+    "secondLevelElements": "#949494",
+    "thirdLevelElements": "#D5D5D5",
+    "fourthLevelElements": "#B7B7B7",
+    "secondaryBackground": "#E8E8E8",
+    "tableAccent": "#118DFF",
+    "textClasses": {
+        "label": {
+            "fontSize": 9,
+            "fontFace": "Arial",
+            "color": "#949494"
+        },
+        "callout": {
+            "fontSize": 18,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "#949494"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "largeTitle": {
+            "fontSize": 14,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "largeLabel": {
+            "fontSize": 12,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "smallLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#949494"
+        },
+        "semiboldLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "boldLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#808080"
+        },
+        "lightLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#949494"
+        },
+        "largeLightLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#949494"
+        },
+        "smallLightLabel": {
+            "fontSize": 8,
+            "fontFace": "Arial",
+            "color": "#949494"
+        }
+    }
+}

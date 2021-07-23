@@ -1,0 +1,40 @@
+{
+"name": "Cascading Styles - taken from Pro Power BI Themes by Adam Aspin - Apress 2021",
+"dataColors": ["#12239E", "#118DFF", "#00FF29", "#6B007B", "#FFB000", "#F5F4F0", "#FFFF00", "#FF001E"],
+"textClasses": 
+	{ 
+	"label": {
+	   "fontSize": 9,
+	   "fontFace": "Arial",
+	   "color": "#FFFF00"
+		}
+	},
+"visualStyles":
+	{"*":
+		{"*":
+			{
+			"total":    [{
+						"totals": true,
+						"label": "TOTAL",
+						"fontColor": {"solid": {"color": "#FFB000"}},
+						"fontFamily": "Arial",
+						"fontSize": 10
+					  }]
+			}
+		},
+	"tableEx":
+		{"*":
+			{
+			"total":    [{
+						"totals": true,
+						"label": "TOTAL",
+						"fontColor": {"solid": {"color": "#6B007B"}},
+						"backColor": {"solid": {"color": "#118DFF"}},
+						"outline": "Frame",
+						"fontFamily": "Arial",
+						"fontSize": 12
+					  }]				
+			}
+		}		
+	}
+}
